@@ -2,7 +2,9 @@ import React from 'react'
 
 const WeeklySchedule = () => {
   return (
-    <div>WeeklySchedule</div>
+    <div>
+        WeeklySchedule
+    </div>
   )
 }
 
