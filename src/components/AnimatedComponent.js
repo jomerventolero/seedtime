@@ -8,7 +8,7 @@ import background from 'public/2.png'
 
 const AnimatedComponent = () => {
   return (
-    <div className="flex justify-center items-center self-center py-10 px-20">
+    <div className="flex justify-center items-center self-center py-10 px-56">
         
         <Image className="z-0" src={background} alt="background" />
         <Image className="absolute" src={center} alt="center" />

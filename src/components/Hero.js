@@ -7,7 +7,7 @@ import front from 'public/front.png'
 const Hero = () => {
   return (
     <div>
-        <div className="flex flex-row gap-4 py-20 px-56 mx-auto">
+        <div className="flex flex-row gap-4 py-20 px-56 mx-auto h-screen">
             <motion.div
             className="flex flex-col gap-10"
             >

@@ -39,7 +39,7 @@ const Navbar = () => {
                             duration: 1,
                             delay: 0.1
                         }}
-                        className="absolute top-0 right-0 mt-16 mr-4 w-40 p-2 bg-white border border-gray-300 shadow">
+                        className="absolute top-0 right-0 mt-16 mr-4 w-40 p-2 bg-white border border-gray-300 shadow rounded-xl">
                         <ul className="space-y-2">
                             <li><a href="#">About</a></li>
                             <li><a href="#">Contact</a></li>

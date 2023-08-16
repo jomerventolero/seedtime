@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Events from '../pages/Events'
 import { useScroll, motion } from 'framer-motion';
 import AnimatedComponent from '@/components/AnimatedComponent';
+import FBLiveStream from '@/components/FBLiveStream';
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Events />
       <AnimatedComponent />
+      <FBLiveStream />
     </main>
   )
 }
