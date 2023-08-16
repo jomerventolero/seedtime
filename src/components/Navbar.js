@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <section className="" id="navbar">
-        <nav className="fixed top-0 flex flex-row gap-4 mx-auto p-4 justify-between w-full bg-white">
+        <nav className="fixed top-0 flex flex-row gap-4 mx-auto p-4 justify-between w-full bg-white z-30">
             <div>
                 <a
                     href="/"

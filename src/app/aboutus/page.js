@@ -1,9 +1,12 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const AboutUs = () => {
   return (
     <div>
-        AboutUs
+        <motion.div>
+            
+        </motion.div>
     </div>
   )
 }

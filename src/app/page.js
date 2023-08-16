@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Events from '../pages/Events'
 import { useScroll, motion } from 'framer-motion';
+import AnimatedComponent from '@/components/AnimatedComponent';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Events />
+      <AnimatedComponent />
     </main>
   )
 }
