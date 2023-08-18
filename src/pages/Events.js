@@ -7,7 +7,7 @@ import cellmiraclecatch from 'public/cellmiraclecatch.jpg'
 
 const Events = () => {
   return (
-    <div id="events" className="flex flex-col gap-4 items-center justify-center pt-10">
+    <div id="events" className="flex flex-col gap-4 items-center justify-center pt-32">
         <motion.h1 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

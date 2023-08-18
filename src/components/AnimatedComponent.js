@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import { motion } from 'framer-motion'
 import Image  from 'next/image'
@@ -10,8 +11,8 @@ const AnimatedComponent = () => {
   return (
     <div className="flex justify-center items-center self-center py-10 px-56">
         
-        <Image className="z-0" src={background} alt="background" />
-        <Image className="absolute" src={center} alt="center" />
+        <Image draggable={false} className="z-0" src={background} alt="background" />
+        <Image draggable={false} className="absolute" src={center} alt="center" />
         
         <motion.h1 
             initial={{ opacity: 0, y: -50}}

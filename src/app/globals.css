@@ -12,3 +12,14 @@
   background: var(--red);
   transform-origin: 0%;
 }
+
+.hover-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 2rem;
+  
+}

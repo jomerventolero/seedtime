@@ -4,10 +4,12 @@ import { motion } from 'framer-motion'
 import Image  from 'next/image'
 import front from 'public/front.png'
 
+import AnimatedHeading from './AnimatedHeading';
+
 const Hero = () => {
   return (
     <div>
-        <div className="flex flex-row gap-4 py-20 px-56 mx-auto h-screen">
+        <div className="flex flex-row gap-4 py-20 px-56 mx-auto">
             <motion.div
             className="flex flex-col gap-10"
             >
@@ -22,7 +24,8 @@ const Hero = () => {
                 delay: 0.3,
                 }}
             >
-                VERSE<br/> OF THE DAY
+                <AnimatedHeading headingText="VERSE"/>
+                <AnimatedHeading headingText="OF THE DAY"/>
             </motion.h1>
             <motion.div className="border-black border-2"
                 initial={{ opacity: 0, x: -50}}
@@ -54,7 +57,7 @@ const Hero = () => {
                 }}
                 className="text-lg text-justify w-full max-w-screen-sm"
                 >
-                “As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night will never cease.”
+                    “As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night will never cease.”
                 </motion.p>
             </motion.div>
             </motion.div>
